@@ -11,12 +11,7 @@ quarterTotalExpenses = expenses[0] + expenses[1] + expenses[2]
 print('Total expenses of first quarter ', quarterTotalExpenses)
 
 # 3
-for i in range(len(expenses)):
-    if expenses[i] == 2000:
-        hasSpent2000Dollars = True
-    else:
-        hasSpent2000Dollars = False
-
+hasSpent2000Dollars = 2000 in expenses
 print('Did we spent exactly 2000 dollars in any of the month ', hasSpent2000Dollars)
 
 # 4
